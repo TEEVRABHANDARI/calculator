@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.box{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+
+.screen{
+    font-size: 30px;
+    height: 100px;
+    width: 310px;
+    border: 1px blue solid ;
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.btn{
+    margin: 5px;
+    font-size: 40px;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.new{
+    font-size: 30px;
+}
+
+#clear{
+    grid-row-start: 2;
+    grid-row-end:3;
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+
+.outside{
+    margin-top: 75px;
+    border: 1px solid black;
+    border-radius: 5%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <h1 class="fst-italic">Calculator</h1>
+    
+    <div class="outside bg-light-subtle">
+
+    <div class="box">
+        <div class="screen bg-primary-subtle">
+            <div id="previous"></div>
+            <div id="current"></div>
+        </div>
+
+        <button class="btn btn-outline-primary btn-lg" id="clear">C</button>
+        <button class="btn btn-outline-primary btn-lg" id="operators">/</button>
+        <button class="btn btn-outline-danger btn-lg" id="operators">x</button>
+        
+        <button class="btn btn-outline-secondary btn-lg numbers">7</button>
+        <button class="btn btn-outline-secondary btn-lg numbers">8</button>
+        <button class="btn btn-outline-secondary btn-lg numbers">9</button>
+        <button class="btn btn-outline-danger btn-lg" id="operators">÷</button>
+        
+        <button class="btn btn-outline-secondary btn-lg numbers">4</button>
+        <button class="btn btn-outline-secondary btn-lg numbers">5</button>
+        <button class="btn btn-outline-secondary btn-lg numbers">6</button>
+        <button class="btn btn-outline-danger btn-lg" id="operators">-</button>
+       
+        <button class="btn btn-outline-secondary btn-lg numbers">1</button>
+        <button class="btn btn-outline-secondary btn-lg numbers">2</button>
+        <button class="btn btn-outline-secondary btn-lg numbers">3</button>
+        <button class="btn btn-outline-danger btn-lg" id="operators">+</button>
+
+        <button class="btn btn-outline-secondary btn-lg numbers">00</button>
+        <button class="btn btn-outline-secondary btn-lg numbers" >0</button>
+        <button class="btn btn-outline-secondary btn-lg decimal" >.</button>
+        <button class="btn btn-outline-warning btn-lg" id="equalsto">=</button>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
